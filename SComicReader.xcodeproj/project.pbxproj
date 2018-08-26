@@ -1,0 +1,1163 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0167E1020B926FF00428FBA /* SCBaseHisCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0167E0F20B926FF00428FBA /* SCBaseHisCollectionViewController.m */; };
+		A0185CEF20B7D4ED004263FE /* SCRecommendHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0185CEE20B7D4ED004263FE /* SCRecommendHeaderView.m */; };
+		A019D73220BA59E000A0244E /* NSBundle+PYSearchExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A019D72220BA593100A0244E /* NSBundle+PYSearchExtension.m */; };
+		A019D73320BA59E000A0244E /* PYSearchConst.m in Sources */ = {isa = PBXBuildFile; fileRef = A019D72620BA593100A0244E /* PYSearchConst.m */; };
+		A019D73420BA59E000A0244E /* PYSearchSuggestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A019D72820BA593100A0244E /* PYSearchSuggestionViewController.m */; };
+		A019D73520BA59E000A0244E /* PYSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A019D72A20BA593100A0244E /* PYSearchViewController.m */; };
+		A019D73620BA59E000A0244E /* UIColor+PYSearchExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A019D72C20BA593100A0244E /* UIColor+PYSearchExtension.m */; };
+		A019D73720BA59E000A0244E /* UIView+PYSearchExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A019D72E20BA593100A0244E /* UIView+PYSearchExtension.m */; };
+		A019D73820BA59E800A0244E /* PYSearch.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A019D72320BA593100A0244E /* PYSearch.bundle */; };
+		A019D73A20BA6B0600A0244E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A019D73920BA653100A0244E /* Assets.xcassets */; };
+		A02C7C53209BFC3000BBA315 /* SCComicGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = A02C7C52209BFC3000BBA315 /* SCComicGroup.m */; };
+		A03CA6F320B11D6B00BF06E8 /* SCConst.m in Sources */ = {isa = PBXBuildFile; fileRef = A03CA6F220B11D6B00BF06E8 /* SCConst.m */; };
+		A0406DD720B66A980091EC3E /* SCCollectionComicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0406DD620B66A980091EC3E /* SCCollectionComicViewController.m */; };
+		A058640020A5B5D600A11D60 /* SCWaterfallFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A05863FF20A5B5D600A11D60 /* SCWaterfallFlowLayout.m */; };
+		A058640320A5BA0F00A11D60 /* SCCollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A058640220A5BA0F00A11D60 /* SCCollectionHeaderView.m */; };
+		A05AD3AE20B57349002C6DFF /* SCComicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A05AD3AD20B57349002C6DFF /* SCComicViewController.m */; };
+		A06BE42420A6D58B004CF56E /* SCComicCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A06BE42320A6D58B004CF56E /* SCComicCollectionViewCell.m */; };
+		A06F853620A96B8300A353EC /* SCComicInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06F853520A96B8300A353EC /* SCComicInfoViewController.m */; };
+		A06F853920A96B9D00A353EC /* SCComicChapterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06F853820A96B9D00A353EC /* SCComicChapterViewController.m */; };
+		A07DD6A220A99BA0007B9281 /* SCComicChapter.m in Sources */ = {isa = PBXBuildFile; fileRef = A07DD6A120A99BA0007B9281 /* SCComicChapter.m */; };
+		A08530092078A3C500FE8B02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A09B147020789CED00B96B21 /* AppDelegate.m */; };
+		A085300E2078A75300FE8B02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A085300D2078A4A400FE8B02 /* main.m */; };
+		A08530102078A95400FE8B02 /* SCIndex.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A085300F2078A95400FE8B02 /* SCIndex.storyboard */; };
+		A08530122078A9F000FE8B02 /* SCBookShelf.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A08530112078A9F000FE8B02 /* SCBookShelf.storyboard */; };
+		A08530142078AA7000FE8B02 /* SCMyComic.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A08530132078AA7000FE8B02 /* SCMyComic.storyboard */; };
+		A08530172078AB4700FE8B02 /* SCMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A08530162078AB3600FE8B02 /* SCMainTabBarController.m */; };
+		A085301A2078AB8000FE8B02 /* SCNewTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = A08530192078AB7900FE8B02 /* SCNewTabBarView.m */; };
+		A085301D2078ABD300FE8B02 /* SCTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A085301B2078ABD300FE8B02 /* SCTabBarButton.m */; };
+		A08D8F2D20BA919100FF51FC /* SCComicRankTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A08D8F2C20BA919100FF51FC /* SCComicRankTableCell.m */; };
+		A097484D20B1965D00AA23AE /* SCComicCode.m in Sources */ = {isa = PBXBuildFile; fileRef = A097484C20B1965D00AA23AE /* SCComicCode.m */; };
+		A097FA74209DBE64001CC67F /* SCNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = A097FA73209DBE64001CC67F /* SCNetWork.m */; };
+		A097FA79209DC626001CC67F /* SCScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A097FA78209DC626001CC67F /* SCScrollView.m */; };
+		A0994EB4209EEF2800915A23 /* SCNetWorkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A0994EB3209EEF2800915A23 /* SCNetWorkManager.m */; };
+		A09B145D2078990B00B96B21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A09B145B2078990B00B96B21 /* LaunchScreen.storyboard */; };
+		A09B9A3020B1300D00AD99E2 /* SCComicRankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A09B9A2F20B1300D00AD99E2 /* SCComicRankViewController.m */; };
+		A09B9A3520B1316B00AD99E2 /* SCComicRankCellLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A09B9A3420B1316B00AD99E2 /* SCComicRankCellLayout.m */; };
+		A0B49BC720B82E5C00F0C311 /* JBKenBurnsView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B49BBC20B8057A00F0C311 /* JBKenBurnsView.m */; };
+		A0B88BCB20AD6BB9003B51AE /* SCImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B88BCA20AD6BB9003B51AE /* SCImageViewController.m */; };
+		A0B88BCE20AD6F94003B51AE /* SCBookShelfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B88BCD20AD6F94003B51AE /* SCBookShelfViewController.m */; };
+		A0B88BD120AD9C5A003B51AE /* SCImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B88BD020AD9C5A003B51AE /* SCImage.m */; };
+		A0B88BD520AD9D6B003B51AE /* SCImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B88BD420AD9D6B003B51AE /* SCImageTableViewCell.m */; };
+		A0BA45C320B0264A00D5CDDD /* SCClassification.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0BA45C220B0264A00D5CDDD /* SCClassification.storyboard */; };
+		A0BA45C720B026D200D5CDDD /* SCSearch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0BA45C620B026D200D5CDDD /* SCSearch.storyboard */; };
+		A0BA45CC20B0284000D5CDDD /* SCNavSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BA45CB20B0284000D5CDDD /* SCNavSearchViewController.m */; };
+		A0BA45CF20B0286C00D5CDDD /* SCNavClassficationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BA45CE20B0286C00D5CDDD /* SCNavClassficationViewController.m */; };
+		A0BA45D220B0288B00D5CDDD /* SCClassificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BA45D120B0288B00D5CDDD /* SCClassificationViewController.m */; };
+		A0BA45D520B028A600D5CDDD /* SCSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BA45D420B028A600D5CDDD /* SCSearchViewController.m */; };
+		A0BA45EB20B042B700D5CDDD /* XLSphereView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BA45EA20B0428100D5CDDD /* XLSphereView.m */; };
+		A0BD884F20B6AA8C00086067 /* SCHisComicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BD884E20B6AA8C00086067 /* SCHisComicViewController.m */; };
+		A0C0B2A72095ACAA00B48366 /* SCNavBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C0B2A62095ACAA00B48366 /* SCNavBaseController.m */; };
+		A0C0B2AA2095ACE800B48366 /* SCNavIndexController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C0B2A92095ACE800B48366 /* SCNavIndexController.m */; };
+		A0C0B2AD2095AD0500B48366 /* SCNavBookShelfController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C0B2AC2095AD0500B48366 /* SCNavBookShelfController.m */; };
+		A0C0B2B02095AD1C00B48366 /* SCNavMyComicController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C0B2AF2095AD1C00B48366 /* SCNavMyComicController.m */; };
+		A0C0B2B32095ADA500B48366 /* SCIndexController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C0B2B22095ADA500B48366 /* SCIndexController.m */; };
+		A0C0B2B72095BDED00B48366 /* ComicIndex.plist in Resources */ = {isa = PBXBuildFile; fileRef = A0C0B2B62095BDED00B48366 /* ComicIndex.plist */; };
+		A0C0B2BA2095C6C500B48366 /* SCComic.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C0B2B92095C6C500B48366 /* SCComic.m */; };
+		A0C530E020B2BE8E00051191 /* SCPrompt.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C530DF20B2BE8E00051191 /* SCPrompt.m */; };
+		A0CC6B4A21327D2700E12FB7 /* SCComicTip.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CC6B4921327D2700E12FB7 /* SCComicTip.m */; };
+		A0CF019E20AC1B9000A966F8 /* SCBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CF019D20AC1B9000A966F8 /* SCBaseViewController.m */; };
+		A0CF01A220AC526800A966F8 /* SCChapterCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CF01A120AC526800A966F8 /* SCChapterCollectionViewCell.m */; };
+		A0D3962B20BD762400ADF1DF /* LSPaoMaView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D3962A20BD762400ADF1DF /* LSPaoMaView.m */; };
+		CFB5BC17518970FA3695962E /* libPods-SComicReader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4938858BE7F3A566DCB81040 /* libPods-SComicReader.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01C08B2685B39F8DBCB6E098 /* Pods-SComicReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SComicReader.release.xcconfig"; path = "Pods/Target Support Files/Pods-SComicReader/Pods-SComicReader.release.xcconfig"; sourceTree = "<group>"; };
+		4938858BE7F3A566DCB81040 /* libPods-SComicReader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SComicReader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F1CA3A64FFA2D610EA7C08C /* Pods-SComicReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SComicReader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SComicReader/Pods-SComicReader.debug.xcconfig"; sourceTree = "<group>"; };
+		A0167E0E20B926FF00428FBA /* SCBaseHisCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCBaseHisCollectionViewController.h; sourceTree = "<group>"; };
+		A0167E0F20B926FF00428FBA /* SCBaseHisCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCBaseHisCollectionViewController.m; sourceTree = "<group>"; };
+		A0185CED20B7D4ED004263FE /* SCRecommendHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCRecommendHeaderView.h; sourceTree = "<group>"; };
+		A0185CEE20B7D4ED004263FE /* SCRecommendHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCRecommendHeaderView.m; sourceTree = "<group>"; };
+		A019D72120BA593100A0244E /* NSBundle+PYSearchExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBundle+PYSearchExtension.h"; sourceTree = "<group>"; };
+		A019D72220BA593100A0244E /* NSBundle+PYSearchExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+PYSearchExtension.m"; sourceTree = "<group>"; };
+		A019D72320BA593100A0244E /* PYSearch.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PYSearch.bundle; sourceTree = "<group>"; };
+		A019D72420BA593100A0244E /* PYSearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYSearch.h; sourceTree = "<group>"; };
+		A019D72520BA593100A0244E /* PYSearchConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYSearchConst.h; sourceTree = "<group>"; };
+		A019D72620BA593100A0244E /* PYSearchConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYSearchConst.m; sourceTree = "<group>"; };
+		A019D72720BA593100A0244E /* PYSearchSuggestionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYSearchSuggestionViewController.h; sourceTree = "<group>"; };
+		A019D72820BA593100A0244E /* PYSearchSuggestionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYSearchSuggestionViewController.m; sourceTree = "<group>"; };
+		A019D72920BA593100A0244E /* PYSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYSearchViewController.h; sourceTree = "<group>"; };
+		A019D72A20BA593100A0244E /* PYSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYSearchViewController.m; sourceTree = "<group>"; };
+		A019D72B20BA593100A0244E /* UIColor+PYSearchExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+PYSearchExtension.h"; sourceTree = "<group>"; };
+		A019D72C20BA593100A0244E /* UIColor+PYSearchExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PYSearchExtension.m"; sourceTree = "<group>"; };
+		A019D72D20BA593100A0244E /* UIView+PYSearchExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+PYSearchExtension.h"; sourceTree = "<group>"; };
+		A019D72E20BA593100A0244E /* UIView+PYSearchExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+PYSearchExtension.m"; sourceTree = "<group>"; };
+		A019D73920BA653100A0244E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A02C7C51209BFC3000BBA315 /* SCComicGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCComicGroup.h; sourceTree = "<group>"; };
+		A02C7C52209BFC3000BBA315 /* SCComicGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCComicGroup.m; sourceTree = "<group>"; };
+		A03CA6F120B11D6B00BF06E8 /* SCConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCConst.h; sourceTree = "<group>"; };
+		A03CA6F220B11D6B00BF06E8 /* SCConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCConst.m; sourceTree = "<group>"; };
+		A0406DD520B66A980091EC3E /* SCCollectionComicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCCollectionComicViewController.h; sourceTree = "<group>"; };
+		A0406DD620B66A980091EC3E /* SCCollectionComicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCCollectionComicViewController.m; sourceTree = "<group>"; };
+		A05863FE20A5B5D600A11D60 /* SCWaterfallFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCWaterfallFlowLayout.h; sourceTree = "<group>"; };
+		A05863FF20A5B5D600A11D60 /* SCWaterfallFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCWaterfallFlowLayout.m; sourceTree = "<group>"; };
+		A058640120A5BA0F00A11D60 /* SCCollectionHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCCollectionHeaderView.h; sourceTree = "<group>"; };
+		A058640220A5BA0F00A11D60 /* SCCollectionHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCCollectionHeaderView.m; sourceTree = "<group>"; };
+		A05AD3AC20B57349002C6DFF /* SCComicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCComicViewController.h; sourceTree = "<group>"; };
+		A05AD3AD20B57349002C6DFF /* SCComicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCComicViewController.m; sourceTree = "<group>"; };
+		A06BE42220A6D58B004CF56E /* SCComicCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCComicCollectionViewCell.h; sourceTree = "<group>"; };
+		A06BE42320A6D58B004CF56E /* SCComicCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCComicCollectionViewCell.m; sourceTree = "<group>"; };
+		A06F853420A96B8300A353EC /* SCComicInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCComicInfoViewController.h; sourceTree = "<group>"; };
+		A06F853520A96B8300A353EC /* SCComicInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCComicInfoViewController.m; sourceTree = "<group>"; };
+		A06F853720A96B9D00A353EC /* SCComicChapterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCComicChapterViewController.h; sourceTree = "<group>"; };
+		A06F853820A96B9D00A353EC /* SCComicChapterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCComicChapterViewController.m; sourceTree = "<group>"; };
+		A07DD6A020A99BA0007B9281 /* SCComicChapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCComicChapter.h; sourceTree = "<group>"; };
+		A07DD6A120A99BA0007B9281 /* SCComicChapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCComicChapter.m; sourceTree = "<group>"; };
+		A085300C2078A4A400FE8B02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A085300D2078A4A400FE8B02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A085300F2078A95400FE8B02 /* SCIndex.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SCIndex.storyboard; sourceTree = "<group>"; };
+		A08530112078A9F000FE8B02 /* SCBookShelf.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SCBookShelf.storyboard; sourceTree = "<group>"; };
+		A08530132078AA7000FE8B02 /* SCMyComic.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SCMyComic.storyboard; sourceTree = "<group>"; };
+		A08530152078AB3600FE8B02 /* SCMainTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCMainTabBarController.h; sourceTree = "<group>"; };
+		A08530162078AB3600FE8B02 /* SCMainTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCMainTabBarController.m; sourceTree = "<group>"; };
+		A08530182078AB7900FE8B02 /* SCNewTabBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCNewTabBarView.h; sourceTree = "<group>"; };
+		A08530192078AB7900FE8B02 /* SCNewTabBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCNewTabBarView.m; sourceTree = "<group>"; };
+		A085301B2078ABD300FE8B02 /* SCTabBarButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCTabBarButton.m; sourceTree = "<group>"; };
+		A085301C2078ABD300FE8B02 /* SCTabBarButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCTabBarButton.h; sourceTree = "<group>"; };
+		A08D8F2B20BA919100FF51FC /* SCComicRankTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCComicRankTableCell.h; sourceTree = "<group>"; };
+		A08D8F2C20BA919100FF51FC /* SCComicRankTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCComicRankTableCell.m; sourceTree = "<group>"; };
+		A097484B20B1965D00AA23AE /* SCComicCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCComicCode.h; sourceTree = "<group>"; };
+		A097484C20B1965D00AA23AE /* SCComicCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCComicCode.m; sourceTree = "<group>"; };
+		A097FA72209DBE64001CC67F /* SCNetWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCNetWork.h; sourceTree = "<group>"; };
+		A097FA73209DBE64001CC67F /* SCNetWork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCNetWork.m; sourceTree = "<group>"; };
+		A097FA77209DC626001CC67F /* SCScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCScrollView.h; sourceTree = "<group>"; };
+		A097FA78209DC626001CC67F /* SCScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCScrollView.m; sourceTree = "<group>"; };
+		A0994EB2209EEF2800915A23 /* SCNetWorkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCNetWorkManager.h; sourceTree = "<group>"; };
+		A0994EB3209EEF2800915A23 /* SCNetWorkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCNetWorkManager.m; sourceTree = "<group>"; };
+		A09B144D2078990A00B96B21 /* SComicReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SComicReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A09B145C2078990B00B96B21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A09B146F20789CED00B96B21 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A09B147020789CED00B96B21 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A09B9A2E20B1300D00AD99E2 /* SCComicRankViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCComicRankViewController.h; sourceTree = "<group>"; };
+		A09B9A2F20B1300D00AD99E2 /* SCComicRankViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCComicRankViewController.m; sourceTree = "<group>"; };
+		A09B9A3320B1316A00AD99E2 /* SCComicRankCellLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCComicRankCellLayout.h; sourceTree = "<group>"; };
+		A09B9A3420B1316B00AD99E2 /* SCComicRankCellLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCComicRankCellLayout.m; sourceTree = "<group>"; };
+		A0B49BBB20B8057A00F0C311 /* JBKenBurnsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JBKenBurnsView.h; sourceTree = "<group>"; };
+		A0B49BBC20B8057A00F0C311 /* JBKenBurnsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JBKenBurnsView.m; sourceTree = "<group>"; };
+		A0B49BBD20B8057A00F0C311 /* UIView+General.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+General.h"; sourceTree = "<group>"; };
+		A0B49BBE20B8057A00F0C311 /* UIView+General.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+General.m"; sourceTree = "<group>"; };
+		A0B88BC920AD6BB9003B51AE /* SCImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCImageViewController.h; sourceTree = "<group>"; };
+		A0B88BCA20AD6BB9003B51AE /* SCImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCImageViewController.m; sourceTree = "<group>"; };
+		A0B88BCC20AD6F94003B51AE /* SCBookShelfViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCBookShelfViewController.h; sourceTree = "<group>"; };
+		A0B88BCD20AD6F94003B51AE /* SCBookShelfViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCBookShelfViewController.m; sourceTree = "<group>"; };
+		A0B88BCF20AD9C5A003B51AE /* SCImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCImage.h; sourceTree = "<group>"; };
+		A0B88BD020AD9C5A003B51AE /* SCImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCImage.m; sourceTree = "<group>"; };
+		A0B88BD320AD9D6B003B51AE /* SCImageTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCImageTableViewCell.h; sourceTree = "<group>"; };
+		A0B88BD420AD9D6B003B51AE /* SCImageTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCImageTableViewCell.m; sourceTree = "<group>"; };
+		A0BA45C220B0264A00D5CDDD /* SCClassification.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SCClassification.storyboard; sourceTree = "<group>"; };
+		A0BA45C620B026D200D5CDDD /* SCSearch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SCSearch.storyboard; sourceTree = "<group>"; };
+		A0BA45CA20B0284000D5CDDD /* SCNavSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCNavSearchViewController.h; sourceTree = "<group>"; };
+		A0BA45CB20B0284000D5CDDD /* SCNavSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCNavSearchViewController.m; sourceTree = "<group>"; };
+		A0BA45CD20B0286C00D5CDDD /* SCNavClassficationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCNavClassficationViewController.h; sourceTree = "<group>"; };
+		A0BA45CE20B0286C00D5CDDD /* SCNavClassficationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCNavClassficationViewController.m; sourceTree = "<group>"; };
+		A0BA45D020B0288B00D5CDDD /* SCClassificationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCClassificationViewController.h; sourceTree = "<group>"; };
+		A0BA45D120B0288B00D5CDDD /* SCClassificationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCClassificationViewController.m; sourceTree = "<group>"; };
+		A0BA45D320B028A600D5CDDD /* SCSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCSearchViewController.h; sourceTree = "<group>"; };
+		A0BA45D420B028A600D5CDDD /* SCSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCSearchViewController.m; sourceTree = "<group>"; };
+		A0BA45E720B0428100D5CDDD /* XLMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLMatrix.h; sourceTree = "<group>"; };
+		A0BA45E820B0428100D5CDDD /* XLPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLPoint.h; sourceTree = "<group>"; };
+		A0BA45E920B0428100D5CDDD /* XLSphereView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLSphereView.h; sourceTree = "<group>"; };
+		A0BA45EA20B0428100D5CDDD /* XLSphereView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLSphereView.m; sourceTree = "<group>"; };
+		A0BD884D20B6AA8C00086067 /* SCHisComicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCHisComicViewController.h; sourceTree = "<group>"; };
+		A0BD884E20B6AA8C00086067 /* SCHisComicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCHisComicViewController.m; sourceTree = "<group>"; };
+		A0C0B2A52095ACAA00B48366 /* SCNavBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCNavBaseController.h; sourceTree = "<group>"; };
+		A0C0B2A62095ACAA00B48366 /* SCNavBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCNavBaseController.m; sourceTree = "<group>"; };
+		A0C0B2A82095ACE800B48366 /* SCNavIndexController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCNavIndexController.h; sourceTree = "<group>"; };
+		A0C0B2A92095ACE800B48366 /* SCNavIndexController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCNavIndexController.m; sourceTree = "<group>"; };
+		A0C0B2AB2095AD0500B48366 /* SCNavBookShelfController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCNavBookShelfController.h; sourceTree = "<group>"; };
+		A0C0B2AC2095AD0500B48366 /* SCNavBookShelfController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCNavBookShelfController.m; sourceTree = "<group>"; };
+		A0C0B2AE2095AD1C00B48366 /* SCNavMyComicController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCNavMyComicController.h; sourceTree = "<group>"; };
+		A0C0B2AF2095AD1C00B48366 /* SCNavMyComicController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCNavMyComicController.m; sourceTree = "<group>"; };
+		A0C0B2B12095ADA500B48366 /* SCIndexController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCIndexController.h; sourceTree = "<group>"; };
+		A0C0B2B22095ADA500B48366 /* SCIndexController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCIndexController.m; sourceTree = "<group>"; };
+		A0C0B2B62095BDED00B48366 /* ComicIndex.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ComicIndex.plist; sourceTree = "<group>"; };
+		A0C0B2B82095C6C500B48366 /* SCComic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCComic.h; sourceTree = "<group>"; };
+		A0C0B2B92095C6C500B48366 /* SCComic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCComic.m; sourceTree = "<group>"; };
+		A0C530DE20B2BE8E00051191 /* SCPrompt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCPrompt.h; sourceTree = "<group>"; };
+		A0C530DF20B2BE8E00051191 /* SCPrompt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCPrompt.m; sourceTree = "<group>"; };
+		A0CC6B4821327D2700E12FB7 /* SCComicTip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCComicTip.h; sourceTree = "<group>"; };
+		A0CC6B4921327D2700E12FB7 /* SCComicTip.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCComicTip.m; sourceTree = "<group>"; };
+		A0CF019C20AC1B9000A966F8 /* SCBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCBaseViewController.h; sourceTree = "<group>"; };
+		A0CF019D20AC1B9000A966F8 /* SCBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCBaseViewController.m; sourceTree = "<group>"; };
+		A0CF01A020AC526800A966F8 /* SCChapterCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCChapterCollectionViewCell.h; sourceTree = "<group>"; };
+		A0CF01A120AC526800A966F8 /* SCChapterCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCChapterCollectionViewCell.m; sourceTree = "<group>"; };
+		A0D3962920BD762400ADF1DF /* LSPaoMaView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSPaoMaView.h; sourceTree = "<group>"; };
+		A0D3962A20BD762400ADF1DF /* LSPaoMaView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSPaoMaView.m; sourceTree = "<group>"; };
+		A0EBA2E220C11DF400B8EB75 /* SComicReader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SComicReader.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A09B144A2078990A00B96B21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB5BC17518970FA3695962E /* libPods-SComicReader.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FF60E36E7F377DE24F4B4FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F1CA3A64FFA2D610EA7C08C /* Pods-SComicReader.debug.xcconfig */,
+				01C08B2685B39F8DBCB6E098 /* Pods-SComicReader.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A019D72020BA593100A0244E /* PYSearch */ = {
+			isa = PBXGroup;
+			children = (
+				A019D72120BA593100A0244E /* NSBundle+PYSearchExtension.h */,
+				A019D72220BA593100A0244E /* NSBundle+PYSearchExtension.m */,
+				A019D72320BA593100A0244E /* PYSearch.bundle */,
+				A019D72420BA593100A0244E /* PYSearch.h */,
+				A019D72520BA593100A0244E /* PYSearchConst.h */,
+				A019D72620BA593100A0244E /* PYSearchConst.m */,
+				A019D72720BA593100A0244E /* PYSearchSuggestionViewController.h */,
+				A019D72820BA593100A0244E /* PYSearchSuggestionViewController.m */,
+				A019D72920BA593100A0244E /* PYSearchViewController.h */,
+				A019D72A20BA593100A0244E /* PYSearchViewController.m */,
+				A019D72B20BA593100A0244E /* UIColor+PYSearchExtension.h */,
+				A019D72C20BA593100A0244E /* UIColor+PYSearchExtension.m */,
+				A019D72D20BA593100A0244E /* UIView+PYSearchExtension.h */,
+				A019D72E20BA593100A0244E /* UIView+PYSearchExtension.m */,
+			);
+			path = PYSearch;
+			sourceTree = "<group>";
+		};
+		A02DA1F920A80BBC00671F67 /* PublicPage */ = {
+			isa = PBXGroup;
+			children = (
+				A09B9A2B20B12F5900AD99E2 /* ComcRankPage */,
+				A0B88BC720AD6B6D003B51AE /* ImagePage */,
+				A06F853A20A96BA400A353EC /* ComicPage */,
+			);
+			path = PublicPage;
+			sourceTree = "<group>";
+		};
+		A02DA1FA20A80BCD00671F67 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A0CF01A020AC526800A966F8 /* SCChapterCollectionViewCell.h */,
+				A0CF01A120AC526800A966F8 /* SCChapterCollectionViewCell.m */,
+				A0185CED20B7D4ED004263FE /* SCRecommendHeaderView.h */,
+				A0185CEE20B7D4ED004263FE /* SCRecommendHeaderView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A02DA1FB20A80BD200671F67 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A06F853420A96B8300A353EC /* SCComicInfoViewController.h */,
+				A06F853520A96B8300A353EC /* SCComicInfoViewController.m */,
+				A06F853720A96B9D00A353EC /* SCComicChapterViewController.h */,
+				A06F853820A96B9D00A353EC /* SCComicChapterViewController.m */,
+				A05AD3AC20B57349002C6DFF /* SCComicViewController.h */,
+				A05AD3AD20B57349002C6DFF /* SCComicViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A02DA1FC20A80BD800671F67 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A05863FD20A5B42300A11D60 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				A05863FE20A5B5D600A11D60 /* SCWaterfallFlowLayout.h */,
+				A05863FF20A5B5D600A11D60 /* SCWaterfallFlowLayout.m */,
+				A06BE42220A6D58B004CF56E /* SCComicCollectionViewCell.h */,
+				A06BE42320A6D58B004CF56E /* SCComicCollectionViewCell.m */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		A06F853A20A96BA400A353EC /* ComicPage */ = {
+			isa = PBXGroup;
+			children = (
+				A02DA1FC20A80BD800671F67 /* Models */,
+				A02DA1FB20A80BD200671F67 /* Controllers */,
+				A02DA1FA20A80BCD00671F67 /* Views */,
+			);
+			path = ComicPage;
+			sourceTree = "<group>";
+		};
+		A085300A2078A4A400FE8B02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A019D73920BA653100A0244E /* Assets.xcassets */,
+				A085300C2078A4A400FE8B02 /* Info.plist */,
+				A0C0B2B62095BDED00B48366 /* ComicIndex.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A097FA71209DBE38001CC67F /* AFNetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				A097FA72209DBE64001CC67F /* SCNetWork.h */,
+				A097FA73209DBE64001CC67F /* SCNetWork.m */,
+				A0994EB2209EEF2800915A23 /* SCNetWorkManager.h */,
+				A0994EB3209EEF2800915A23 /* SCNetWorkManager.m */,
+			);
+			path = AFNetWorking;
+			sourceTree = "<group>";
+		};
+		A097FA75209DBF02001CC67F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A097FA76209DBF25001CC67F /* SDCycleScrollView */,
+				A097FA71209DBE38001CC67F /* AFNetWorking */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A097FA76209DBF25001CC67F /* SDCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				A097FA77209DC626001CC67F /* SCScrollView.h */,
+				A097FA78209DC626001CC67F /* SCScrollView.m */,
+			);
+			path = SDCycleScrollView;
+			sourceTree = "<group>";
+		};
+		A09B14442078990A00B96B21 = {
+			isa = PBXGroup;
+			children = (
+				A09B144F2078990A00B96B21 /* SComicReader */,
+				A09B144E2078990A00B96B21 /* Products */,
+				2FF60E36E7F377DE24F4B4FB /* Pods */,
+				CFEEBD26811523F666B7FEE0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A09B144E2078990A00B96B21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A09B144D2078990A00B96B21 /* SComicReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A09B144F2078990A00B96B21 /* SComicReader */ = {
+			isa = PBXGroup;
+			children = (
+				A0EBA2E220C11DF400B8EB75 /* SComicReader.entitlements */,
+				A0C530DC20B2BE0100051191 /* Tool */,
+				A0BA45C420B026A900D5CDDD /* Search */,
+				A0BA45C020B025F900D5CDDD /* Classification */,
+				A02DA1F920A80BBC00671F67 /* PublicPage */,
+				A097FA75209DBF02001CC67F /* Pods */,
+				A0C0B2B42095BA3C00B48366 /* Common */,
+				A085300A2078A4A400FE8B02 /* Supporting Files */,
+				A09B146620789CED00B96B21 /* BookShelf */,
+				A09B147720789CED00B96B21 /* Index */,
+				A09B146B20789CED00B96B21 /* Main */,
+				A09B148320789D6000B96B21 /* MyComic */,
+			);
+			path = SComicReader;
+			sourceTree = "<group>";
+		};
+		A09B146620789CED00B96B21 /* BookShelf */ = {
+			isa = PBXGroup;
+			children = (
+				A09B146720789CED00B96B21 /* Controllers */,
+				A09B146820789CED00B96B21 /* Models */,
+				A09B146920789CED00B96B21 /* Others */,
+				A09B146A20789CED00B96B21 /* Views */,
+			);
+			path = BookShelf;
+			sourceTree = "<group>";
+		};
+		A09B146720789CED00B96B21 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A0C0B2AB2095AD0500B48366 /* SCNavBookShelfController.h */,
+				A0C0B2AC2095AD0500B48366 /* SCNavBookShelfController.m */,
+				A0B88BCC20AD6F94003B51AE /* SCBookShelfViewController.h */,
+				A0B88BCD20AD6F94003B51AE /* SCBookShelfViewController.m */,
+				A0406DD520B66A980091EC3E /* SCCollectionComicViewController.h */,
+				A0406DD620B66A980091EC3E /* SCCollectionComicViewController.m */,
+				A0BD884D20B6AA8C00086067 /* SCHisComicViewController.h */,
+				A0BD884E20B6AA8C00086067 /* SCHisComicViewController.m */,
+				A0167E0E20B926FF00428FBA /* SCBaseHisCollectionViewController.h */,
+				A0167E0F20B926FF00428FBA /* SCBaseHisCollectionViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A09B146820789CED00B96B21 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A09B146920789CED00B96B21 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		A09B146A20789CED00B96B21 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A08530112078A9F000FE8B02 /* SCBookShelf.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A09B146B20789CED00B96B21 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A09B146C20789CED00B96B21 /* Controllers */,
+				A09B146D20789CED00B96B21 /* Models */,
+				A09B146E20789CED00B96B21 /* Others */,
+				A09B147120789CED00B96B21 /* Views */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A09B146C20789CED00B96B21 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A08530152078AB3600FE8B02 /* SCMainTabBarController.h */,
+				A08530162078AB3600FE8B02 /* SCMainTabBarController.m */,
+				A0C0B2A52095ACAA00B48366 /* SCNavBaseController.h */,
+				A0C0B2A62095ACAA00B48366 /* SCNavBaseController.m */,
+				A0CF019C20AC1B9000A966F8 /* SCBaseViewController.h */,
+				A0CF019D20AC1B9000A966F8 /* SCBaseViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A09B146D20789CED00B96B21 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A09B146E20789CED00B96B21 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				A085300D2078A4A400FE8B02 /* main.m */,
+				A09B146F20789CED00B96B21 /* AppDelegate.h */,
+				A09B147020789CED00B96B21 /* AppDelegate.m */,
+				A03CA6F120B11D6B00BF06E8 /* SCConst.h */,
+				A03CA6F220B11D6B00BF06E8 /* SCConst.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		A09B147120789CED00B96B21 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A085301C2078ABD300FE8B02 /* SCTabBarButton.h */,
+				A085301B2078ABD300FE8B02 /* SCTabBarButton.m */,
+				A08530182078AB7900FE8B02 /* SCNewTabBarView.h */,
+				A08530192078AB7900FE8B02 /* SCNewTabBarView.m */,
+				A09B145B2078990B00B96B21 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A09B147720789CED00B96B21 /* Index */ = {
+			isa = PBXGroup;
+			children = (
+				A09B147820789CED00B96B21 /* Controllers */,
+				A09B147920789CED00B96B21 /* Models */,
+				A09B147A20789CED00B96B21 /* Others */,
+				A09B147B20789CED00B96B21 /* Views */,
+			);
+			path = Index;
+			sourceTree = "<group>";
+		};
+		A09B147820789CED00B96B21 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A0C0B2A82095ACE800B48366 /* SCNavIndexController.h */,
+				A0C0B2A92095ACE800B48366 /* SCNavIndexController.m */,
+				A0C0B2B12095ADA500B48366 /* SCIndexController.h */,
+				A0C0B2B22095ADA500B48366 /* SCIndexController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A09B147920789CED00B96B21 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A09B147A20789CED00B96B21 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		A09B147B20789CED00B96B21 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A085300F2078A95400FE8B02 /* SCIndex.storyboard */,
+				A058640120A5BA0F00A11D60 /* SCCollectionHeaderView.h */,
+				A058640220A5BA0F00A11D60 /* SCCollectionHeaderView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A09B148320789D6000B96B21 /* MyComic */ = {
+			isa = PBXGroup;
+			children = (
+				A09B148420789D6000B96B21 /* Controllers */,
+				A09B148520789D6000B96B21 /* Models */,
+				A09B148620789D6000B96B21 /* Others */,
+				A09B148920789D6000B96B21 /* Views */,
+			);
+			path = MyComic;
+			sourceTree = "<group>";
+		};
+		A09B148420789D6000B96B21 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A0C0B2AE2095AD1C00B48366 /* SCNavMyComicController.h */,
+				A0C0B2AF2095AD1C00B48366 /* SCNavMyComicController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A09B148520789D6000B96B21 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A09B148620789D6000B96B21 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		A09B148920789D6000B96B21 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A08530132078AA7000FE8B02 /* SCMyComic.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A09B9A2B20B12F5900AD99E2 /* ComcRankPage */ = {
+			isa = PBXGroup;
+			children = (
+				A09B9A2D20B12FAB00AD99E2 /* Views */,
+				A09B9A2C20B12F6300AD99E2 /* Controllers */,
+			);
+			path = ComcRankPage;
+			sourceTree = "<group>";
+		};
+		A09B9A2C20B12F6300AD99E2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A09B9A2E20B1300D00AD99E2 /* SCComicRankViewController.h */,
+				A09B9A2F20B1300D00AD99E2 /* SCComicRankViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A09B9A2D20B12FAB00AD99E2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A09B9A3320B1316A00AD99E2 /* SCComicRankCellLayout.h */,
+				A09B9A3420B1316B00AD99E2 /* SCComicRankCellLayout.m */,
+				A08D8F2B20BA919100FF51FC /* SCComicRankTableCell.h */,
+				A08D8F2C20BA919100FF51FC /* SCComicRankTableCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A0B49B9C20B8046D00F0C311 /* Sphere */ = {
+			isa = PBXGroup;
+			children = (
+				A0B49B9D20B8047F00F0C311 /* Views */,
+			);
+			path = Sphere;
+			sourceTree = "<group>";
+		};
+		A0B49B9D20B8047F00F0C311 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A0BA45E720B0428100D5CDDD /* XLMatrix.h */,
+				A0BA45E820B0428100D5CDDD /* XLPoint.h */,
+				A0BA45E920B0428100D5CDDD /* XLSphereView.h */,
+				A0BA45EA20B0428100D5CDDD /* XLSphereView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A0B49B9E20B8050E00F0C311 /* SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				A019D72020BA593100A0244E /* PYSearch */,
+				A0B49BC020B8061100F0C311 /* others */,
+			);
+			path = SearchBar;
+			sourceTree = "<group>";
+		};
+		A0B49BC020B8061100F0C311 /* others */ = {
+			isa = PBXGroup;
+			children = (
+				A0B49BBB20B8057A00F0C311 /* JBKenBurnsView.h */,
+				A0B49BBC20B8057A00F0C311 /* JBKenBurnsView.m */,
+				A0B49BBD20B8057A00F0C311 /* UIView+General.h */,
+				A0B49BBE20B8057A00F0C311 /* UIView+General.m */,
+			);
+			path = others;
+			sourceTree = "<group>";
+		};
+		A0B88BC720AD6B6D003B51AE /* ImagePage */ = {
+			isa = PBXGroup;
+			children = (
+				A0B88BD220AD9D44003B51AE /* Views */,
+				A0B88BC820AD6B99003B51AE /* Controllers */,
+			);
+			path = ImagePage;
+			sourceTree = "<group>";
+		};
+		A0B88BC820AD6B99003B51AE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A0B88BC920AD6BB9003B51AE /* SCImageViewController.h */,
+				A0B88BCA20AD6BB9003B51AE /* SCImageViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A0B88BD220AD9D44003B51AE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A0B88BD320AD9D6B003B51AE /* SCImageTableViewCell.h */,
+				A0B88BD420AD9D6B003B51AE /* SCImageTableViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A0BA45C020B025F900D5CDDD /* Classification */ = {
+			isa = PBXGroup;
+			children = (
+				A0BA45C920B0277B00D5CDDD /* Views */,
+				A0BA45C120B0263200D5CDDD /* Controllers */,
+			);
+			path = Classification;
+			sourceTree = "<group>";
+		};
+		A0BA45C120B0263200D5CDDD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A0BA45CD20B0286C00D5CDDD /* SCNavClassficationViewController.h */,
+				A0BA45CE20B0286C00D5CDDD /* SCNavClassficationViewController.m */,
+				A0BA45D020B0288B00D5CDDD /* SCClassificationViewController.h */,
+				A0BA45D120B0288B00D5CDDD /* SCClassificationViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A0BA45C420B026A900D5CDDD /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				A0B49B9E20B8050E00F0C311 /* SearchBar */,
+				A0B49B9C20B8046D00F0C311 /* Sphere */,
+				A0BA45C820B0277500D5CDDD /* Views */,
+				A0BA45C520B026BB00D5CDDD /* Controllers */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		A0BA45C520B026BB00D5CDDD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A0BA45CA20B0284000D5CDDD /* SCNavSearchViewController.h */,
+				A0BA45CB20B0284000D5CDDD /* SCNavSearchViewController.m */,
+				A0BA45D320B028A600D5CDDD /* SCSearchViewController.h */,
+				A0BA45D420B028A600D5CDDD /* SCSearchViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A0BA45C820B0277500D5CDDD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A0BA45C620B026D200D5CDDD /* SCSearch.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A0BA45C920B0277B00D5CDDD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A0BA45C220B0264A00D5CDDD /* SCClassification.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A0C0B2B42095BA3C00B48366 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A05863FD20A5B42300A11D60 /* views */,
+				A0C0B2B52095BA5100B48366 /* Models */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A0C0B2B52095BA5100B48366 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A0C0B2B82095C6C500B48366 /* SCComic.h */,
+				A0C0B2B92095C6C500B48366 /* SCComic.m */,
+				A02C7C51209BFC3000BBA315 /* SCComicGroup.h */,
+				A02C7C52209BFC3000BBA315 /* SCComicGroup.m */,
+				A07DD6A020A99BA0007B9281 /* SCComicChapter.h */,
+				A07DD6A120A99BA0007B9281 /* SCComicChapter.m */,
+				A0B88BCF20AD9C5A003B51AE /* SCImage.h */,
+				A0B88BD020AD9C5A003B51AE /* SCImage.m */,
+				A097484B20B1965D00AA23AE /* SCComicCode.h */,
+				A097484C20B1965D00AA23AE /* SCComicCode.m */,
+				A0CC6B4821327D2700E12FB7 /* SCComicTip.h */,
+				A0CC6B4921327D2700E12FB7 /* SCComicTip.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A0C530DC20B2BE0100051191 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				A0C530DD20B2BE0F00051191 /* Views */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		A0C530DD20B2BE0F00051191 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A0D3962920BD762400ADF1DF /* LSPaoMaView.h */,
+				A0D3962A20BD762400ADF1DF /* LSPaoMaView.m */,
+				A0C530DE20B2BE8E00051191 /* SCPrompt.h */,
+				A0C530DF20B2BE8E00051191 /* SCPrompt.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CFEEBD26811523F666B7FEE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4938858BE7F3A566DCB81040 /* libPods-SComicReader.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A09B144C2078990A00B96B21 /* SComicReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A09B14632078990B00B96B21 /* Build configuration list for PBXNativeTarget "SComicReader" */;
+			buildPhases = (
+				D6EBF12B00A095DCF8B74B4F /* [CP] Check Pods Manifest.lock */,
+				A09B14492078990A00B96B21 /* Sources */,
+				A09B144A2078990A00B96B21 /* Frameworks */,
+				A09B144B2078990A00B96B21 /* Resources */,
+				4F3C471078E901D067C84086 /* [CP] Embed Pods Frameworks */,
+				5F933F62229A7DA4DCE492CC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SComicReader;
+			productName = SComicReader;
+			productReference = A09B144D2078990A00B96B21 /* SComicReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A09B14452078990A00B96B21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SC;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = shuchang;
+				TargetAttributes = {
+					A09B144C2078990A00B96B21 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.ApplePay = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = A09B14482078990A00B96B21 /* Build configuration list for PBXProject "SComicReader" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A09B14442078990A00B96B21;
+			productRefGroup = A09B144E2078990A00B96B21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A09B144C2078990A00B96B21 /* SComicReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A09B144B2078990A00B96B21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A019D73A20BA6B0600A0244E /* Assets.xcassets in Resources */,
+				A019D73820BA59E800A0244E /* PYSearch.bundle in Resources */,
+				A08530122078A9F000FE8B02 /* SCBookShelf.storyboard in Resources */,
+				A09B145D2078990B00B96B21 /* LaunchScreen.storyboard in Resources */,
+				A0BA45C320B0264A00D5CDDD /* SCClassification.storyboard in Resources */,
+				A08530142078AA7000FE8B02 /* SCMyComic.storyboard in Resources */,
+				A0C0B2B72095BDED00B48366 /* ComicIndex.plist in Resources */,
+				A0BA45C720B026D200D5CDDD /* SCSearch.storyboard in Resources */,
+				A08530102078A95400FE8B02 /* SCIndex.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F3C471078E901D067C84086 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SComicReader/Pods-SComicReader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F933F62229A7DA4DCE492CC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SComicReader/Pods-SComicReader-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SComicReader/Pods-SComicReader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6EBF12B00A095DCF8B74B4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SComicReader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A09B14492078990A00B96B21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A019D73220BA59E000A0244E /* NSBundle+PYSearchExtension.m in Sources */,
+				A019D73320BA59E000A0244E /* PYSearchConst.m in Sources */,
+				A019D73420BA59E000A0244E /* PYSearchSuggestionViewController.m in Sources */,
+				A019D73520BA59E000A0244E /* PYSearchViewController.m in Sources */,
+				A019D73620BA59E000A0244E /* UIColor+PYSearchExtension.m in Sources */,
+				A019D73720BA59E000A0244E /* UIView+PYSearchExtension.m in Sources */,
+				A0B49BC720B82E5C00F0C311 /* JBKenBurnsView.m in Sources */,
+				A0BD884F20B6AA8C00086067 /* SCHisComicViewController.m in Sources */,
+				A0BA45EB20B042B700D5CDDD /* XLSphereView.m in Sources */,
+				A097484D20B1965D00AA23AE /* SCComicCode.m in Sources */,
+				A08D8F2D20BA919100FF51FC /* SCComicRankTableCell.m in Sources */,
+				A0C0B2A72095ACAA00B48366 /* SCNavBaseController.m in Sources */,
+				A0D3962B20BD762400ADF1DF /* LSPaoMaView.m in Sources */,
+				A0CC6B4A21327D2700E12FB7 /* SCComicTip.m in Sources */,
+				A097FA79209DC626001CC67F /* SCScrollView.m in Sources */,
+				A0B88BD120AD9C5A003B51AE /* SCImage.m in Sources */,
+				A0C0B2AD2095AD0500B48366 /* SCNavBookShelfController.m in Sources */,
+				A0C0B2BA2095C6C500B48366 /* SCComic.m in Sources */,
+				A09B9A3520B1316B00AD99E2 /* SCComicRankCellLayout.m in Sources */,
+				A02C7C53209BFC3000BBA315 /* SCComicGroup.m in Sources */,
+				A09B9A3020B1300D00AD99E2 /* SCComicRankViewController.m in Sources */,
+				A0C0B2AA2095ACE800B48366 /* SCNavIndexController.m in Sources */,
+				A058640020A5B5D600A11D60 /* SCWaterfallFlowLayout.m in Sources */,
+				A0C0B2B02095AD1C00B48366 /* SCNavMyComicController.m in Sources */,
+				A085301A2078AB8000FE8B02 /* SCNewTabBarView.m in Sources */,
+				A0BA45D520B028A600D5CDDD /* SCSearchViewController.m in Sources */,
+				A07DD6A220A99BA0007B9281 /* SCComicChapter.m in Sources */,
+				A0B88BCE20AD6F94003B51AE /* SCBookShelfViewController.m in Sources */,
+				A0CF01A220AC526800A966F8 /* SCChapterCollectionViewCell.m in Sources */,
+				A0BA45CF20B0286C00D5CDDD /* SCNavClassficationViewController.m in Sources */,
+				A097FA74209DBE64001CC67F /* SCNetWork.m in Sources */,
+				A06F853620A96B8300A353EC /* SCComicInfoViewController.m in Sources */,
+				A058640320A5BA0F00A11D60 /* SCCollectionHeaderView.m in Sources */,
+				A08530172078AB4700FE8B02 /* SCMainTabBarController.m in Sources */,
+				A0994EB4209EEF2800915A23 /* SCNetWorkManager.m in Sources */,
+				A0C0B2B32095ADA500B48366 /* SCIndexController.m in Sources */,
+				A085300E2078A75300FE8B02 /* main.m in Sources */,
+				A0406DD720B66A980091EC3E /* SCCollectionComicViewController.m in Sources */,
+				A0B88BCB20AD6BB9003B51AE /* SCImageViewController.m in Sources */,
+				A0C530E020B2BE8E00051191 /* SCPrompt.m in Sources */,
+				A0BA45D220B0288B00D5CDDD /* SCClassificationViewController.m in Sources */,
+				A08530092078A3C500FE8B02 /* AppDelegate.m in Sources */,
+				A0BA45CC20B0284000D5CDDD /* SCNavSearchViewController.m in Sources */,
+				A06BE42420A6D58B004CF56E /* SCComicCollectionViewCell.m in Sources */,
+				A0167E1020B926FF00428FBA /* SCBaseHisCollectionViewController.m in Sources */,
+				A03CA6F320B11D6B00BF06E8 /* SCConst.m in Sources */,
+				A0CF019E20AC1B9000A966F8 /* SCBaseViewController.m in Sources */,
+				A0B88BD520AD9D6B003B51AE /* SCImageTableViewCell.m in Sources */,
+				A0185CEF20B7D4ED004263FE /* SCRecommendHeaderView.m in Sources */,
+				A085301D2078ABD300FE8B02 /* SCTabBarButton.m in Sources */,
+				A06F853920A96B9D00A353EC /* SCComicChapterViewController.m in Sources */,
+				A05AD3AE20B57349002C6DFF /* SCComicViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A09B145B2078990B00B96B21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A09B145C2078990B00B96B21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A09B14612078990B00B96B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A09B14622078990B00B96B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A09B14642078990B00B96B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F1CA3A64FFA2D610EA7C08C /* Pods-SComicReader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_STRICT_PROTOTYPES = NO;
+				CODE_SIGN_ENTITLEMENTS = SComicReader/SComicReader.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "SComicReader/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = scomicreader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A09B14652078990B00B96B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01C08B2685B39F8DBCB6E098 /* Pods-SComicReader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_STRICT_PROTOTYPES = NO;
+				CODE_SIGN_ENTITLEMENTS = SComicReader/SComicReader.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "SComicReader/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = scomicreader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A09B14482078990A00B96B21 /* Build configuration list for PBXProject "SComicReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A09B14612078990B00B96B21 /* Debug */,
+				A09B14622078990B00B96B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A09B14632078990B00B96B21 /* Build configuration list for PBXNativeTarget "SComicReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A09B14642078990B00B96B21 /* Debug */,
+				A09B14652078990B00B96B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A09B14452078990A00B96B21 /* Project object */;
+}

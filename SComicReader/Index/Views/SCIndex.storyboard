@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wPx-eD-EeU">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Nav Index Controller-->
+        <scene sceneID="tDb-J7-GMK">
+            <objects>
+                <navigationController id="wPx-eD-EeU" customClass="SCNavIndexController" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="qHP-Ig-AFt">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="xEB-Or-Gpz" kind="relationship" relationship="rootViewController" id="SWu-oK-7WC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fxr-CZ-8Z3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1366" y="57"/>
+        </scene>
+        <!--首页-->
+        <scene sceneID="wTN-vB-fsB">
+            <objects>
+                <viewController id="xEB-Or-Gpz" customClass="SCIndexController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kcu-pU-a6N">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="2RA-6i-8bl"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="首页" id="WaY-t2-auH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tQN-dP-kLU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-565.60000000000002" y="63.418290854572717"/>
+        </scene>
+    </scenes>
+</document>
