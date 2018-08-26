@@ -13,7 +13,7 @@ cd 到工程目录下 <br>
 ![image](https://github.com/sccuncai/SComicReader/raw/master/Screenshots/iphone6.png)
 
 # 注意事项
-后端用djangorestframework开发的httpapi接口，由于涉及服务器和数据库敏感信息，后端就不放上来了。开放给大家各自玩下，目前服务器配置比较低，图片全在我自己的服务器上，加上了cdn也可能卡，别把我服务器搞垮了。<br>
+后端用djangorestframework开发的httpapi接口，由于涉及服务器和数据库敏感信息，后端就不放上来了。开放给大家各自玩下，目前服务器配置比较低，访问速度慢，别把我服务器搞垮了。<br>
 有问题请联系我qq：30262400
 
 # 附加信息
