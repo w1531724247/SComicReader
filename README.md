@@ -1,5 +1,8 @@
 # SComicReader
+cd 到工程目录下 <br> 
+执行：pod update <br>
 最低支持ios8，适配到iphonex和ipad
+
 
 # 界面截图:
 ![image](https://github.com/sccuncai/SComicReader/raw/master/Screenshots/iphone1.png)
