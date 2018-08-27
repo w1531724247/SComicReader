@@ -1098,7 +1098,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6F1CA3A64FFA2D610EA7C08C /* Pods-SComicReader.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_WARN_STRICT_PROTOTYPES = NO;
 				CODE_SIGN_ENTITLEMENTS = SComicReader/SComicReader.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
@@ -1119,7 +1119,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 01C08B2685B39F8DBCB6E098 /* Pods-SComicReader.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_WARN_STRICT_PROTOTYPES = NO;
 				CODE_SIGN_ENTITLEMENTS = SComicReader/SComicReader.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
