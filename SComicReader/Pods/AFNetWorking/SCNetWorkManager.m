@@ -43,12 +43,6 @@
         
         /**设置请求头*/
         [self.requestSerializer setValue:@"gzip" forHTTPHeaderField:@"Content-Encoding"];
-        //为了外链出去
-        [self.requestSerializer setValue:@"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36" forHTTPHeaderField:@"User-Agent"];
-        
-        [self.requestSerializer setValue:@"http://www.gufengmh.com" forHTTPHeaderField:@"Referer"];
- 
-        
         
         //左上角出现加载圆圈
         [AFNetworkActivityIndicatorManager sharedManager].enabled = YES;
